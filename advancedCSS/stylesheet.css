@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    height: 10vh;
+    width: auto;
+    background-color:rosybrown;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 2vh;
+
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    margin-top: 2vh;
+    
+}
+
+nav li {
+    text-decoration: underline;
+    float: left;
+    list-style-type:  none;
+    padding-right: 1vh;
+    
+}
+
+.feature {
+    height: 10vh;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    margin-top: 2vh;
+    
+}
+
+.column {
+    {
+        height: 8vh;
+        width: 33.33vw;
+        background-color: grey;
+        text-align: center;
+        margin-top: 2vh;
+        float: left;
+        display: inline;
+        
+    }
+}
+
+footer {
+    height: 10vh;
+    width: auto;
+    background-color:rosybrown;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 2vh;
+}
