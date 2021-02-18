@@ -39,9 +39,15 @@ li {
 .rating span {
     color: #F4B400;
     font-size: 25px;
-    
+}
+
+.rating {
+    text-align: center;
 }
 
 footer {
-  text-align: center;  
+    text-align: center;  
 }
+
+* {
+    font-family: 'Happy Monkey', cursive;}
