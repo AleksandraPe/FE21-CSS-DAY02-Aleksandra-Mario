@@ -4,6 +4,11 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 header {
     height: 10vh;
     width: auto;
@@ -15,42 +20,59 @@ header {
 }
 
 nav {
-    height: 10vh;
+    height: 12vh;
     width: 100%;
-    background-color: grey;
-    text-align: center;
-    margin-top: 2vh;
+    background-color: lightgrey;
     
+    margin-top: 20px;
+    font: 1.5em;
 }
+
 
 nav li {
     text-decoration: underline;
     float: left;
     list-style-type:  none;
-    padding-right: 1vh;
-    
+    padding-right: 2vh;
+    font-size: 1.5em;
+}
+
+ul {
+    text-align: center;
+    display: inline-block;
 }
 
 .feature {
-    height: 10vh;
+    height: 12vh;
     width: 100%;
-    background-color: grey;
+    background-color: lightgrey;
     text-align: center;
-    margin-top: 2vh;
-    
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.feature p {
+    padding-top: 30px;
 }
 
 .column {
-    {
-        height: 8vh;
-        width: 33.33vw;
-        background-color: grey;
+        height: 9vh;
+        width: 32.4%;
+        background-color: lightgrey;
         text-align: center;
-        margin-top: 2vh;
+        vertical-align: middle ;
+        margin-top: 20px;
         float: left;
-        display: inline;
-        
-    }
+        margin-bottom: 20px;
+        font-size: 1.5em;
+       }
+
+.one,.two {
+    margin-right: 20px;
+}       
+
+.column p {
+    margin-top: 20px;
 }
 
 footer {
@@ -60,4 +82,13 @@ footer {
     text-align: center;
     font-size: 1.5em;
     padding-top: 2vh;
+    clear: both;
+    font: 1.5em;
 }
+
+footer p {
+    margin-top: 2vh;
+}
+
+
+
