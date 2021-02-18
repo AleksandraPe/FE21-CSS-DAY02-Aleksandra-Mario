@@ -38,8 +38,9 @@ nav li {
 }
 
 ul {
-    text-align: center;
-    display: inline-block;
+    position: relative;
+    top: 35%;
+    left: 40%;
 }
 
 .feature {
